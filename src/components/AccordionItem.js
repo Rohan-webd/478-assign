@@ -15,7 +15,7 @@ function AccordionItem({title,desc,open,toggle}) {
          <p style={{lineHeight : '24px'}}>{desc}</p>
         </div>
         </Collapse>
-        <hr className="w-[100%] h-[1.5px] bg-black mt-[14px]"/>
+        <hr className="w-[100%] h-[1.6px] bg-black mt-[14px]"/>
     </div>
    
   )

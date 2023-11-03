@@ -76,9 +76,9 @@ function Product(props) {
         <br /> <i>made with</i> British Gin
       </h1>
       
-      <div className="w-[100%] flex justify-between mt-6">
+      <div className="w-[100%] flex justify-between mt-6 text-[18px]">
         <h3>
-        Distilled <i>in</i> England
+        Blended <i>in</i> England
         </h3>
         <h3 className="font-medium">
           10%Vol / 700ml
@@ -87,7 +87,7 @@ function Product(props) {
 
       <button className="w-full bg-black text-[#fff] p-[10px] text-[22px] hover:text-[#fff] hover:bg-[#2455f6] transition-all duration-300 delay-50 ease-linear mt-4" style={{borderRadius : '40px'}}>£29.95 — Add to Bag</button>
       <p className="text-center text-[#2455f6] font-semibold mt-4">FREE UK DELIVERY</p>
-      <hr className="w-[100%] h-[2px] bg-black mt-[14px]"/>
+      <hr className="w-[100%] h-[1.5px] bg-black mt-[14px]"/>
       {Accordion.map((accord , index)=>(
         <AccordionItem key={index} open={index === open} toggle={()=>{toggle(index)}} title={accord.title} desc={accord.desc}/>
       ))}

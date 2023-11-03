@@ -13,14 +13,13 @@ function Navbar(props) {
     <div className="container  h-14 flex ">
     <div className="w-1/3  flex align-middle">
     <div className='group'>
-    <p className='text-xl m-3 ml-6 cursor-pointer'>SHOP</p>
-    <div className="absolute top-18 w-full h-[50vh]  bg-[#fafafa] hidden group-hover:block hover:block">
+    <p className='text-xl m-3 ml-6 cursor-pointer font-semibold'>SHOP</p>
+    <div className="absolute top-18 w-full h-[49vh]  bg-[#fafafa] hidden group-hover:block hover:block">
      <hr className="w-full h-[1.5px] bg-black"/>
     <div className="w-full h-1/4 ">
       <h1 className="text-[40px] p-[10px] hover:text-[#2455f6] transition-all duration-200 cursor-pointer ">LONDON DRY <i>made with </i>  British Gin</h1>
-      <img src="" alt="" />
     </div>
-    <hr className="w-full h-[1.5px] bg-black"/>
+    <hr className="w-full h-[1.7px] bg-black"/>
     <div className="w-full h-1/4">
      <h1 className="text-[40px] p-[10px] hover:text-[#2455f6] transition-all duration-200 cursor-pointer">SPICED BLEND <i>made with</i>  Caribbean Rum</h1>
     </div>
@@ -32,17 +31,17 @@ function Navbar(props) {
     <div className="w-full h-1/4 ">
     <h1 className="text-[40px] p-[10px] hover:text-[#2455f6] transition-all duration-200 cursor-pointer">TRIO London Dry, Spiced Blend & Aperitif</h1>
     </div>
-    <hr className="w-full h-[1.9px] bg-black"/>
+    <hr className="w-full h-[1.5px] bg-black"/>
     </div>
     </div>
-    <p className="text-xl m-3">STORY</p>
+    <p className="text-xl m-3 font-semibold">STORY</p>
     </div>
     <div className="w-1/3  text-center">
-        <h1 className="text-3xl mt-2">DECEM<sup className="text-[0.5rem] top-[-15px]">10</sup></h1>
+        <h1 className="text-[35px] font-semibold ">DECEM<sup className="text-[0.5rem] top-[-19px]">10</sup></h1>
     </div>
     <div className="w-1/3  flex justify-end">
         <div className="m-3 flex">
-        <button onClick={props.onClickBasketHandler}>BASKET <span className='italic'>({quantity})</span></button>
+        <button onClick={props.onClickBasketHandler} className="text-[20px] font-semibold">BASKET <span className='italic'>({quantity})</span></button>
         </div>
     </div>
     </div>
